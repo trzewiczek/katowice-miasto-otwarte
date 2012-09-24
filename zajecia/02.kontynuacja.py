@@ -2,11 +2,11 @@
 
 # tworzymy pięć teczek dla pięciu osób
 # każda osoba opisana jest za pomocą takich atrybutów:
-#   - imię
-#   - nazwisko
-#   - wiek
-#   - lista imion dzieci
-#   - zawód
+#   0 --> imię
+#   1 --> nazwisko
+#   2 --> wiek
+#   3 --> lista imion dzieci
+#   4 --> zawód
 osoba1 = ['Jan'      , 'Kowalski'  , 23, ['Jasio']                         , 'Programista']
 osoba2 = ['Anna'     , 'Nowak'     , 50, ['Kasia', 'Wiola']                , 'Programistka']
 osoba3 = ['Stanisław', 'Wiśniewski', 54, []                                , 'Malarz']
