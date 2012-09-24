@@ -5,7 +5,8 @@ Kod towarzyszący warsztatom Katowice. Miasto otwarte
 Tutorial
 --------
 Są to notatki dołączone do screencastów znajdujących
-się w serwisie Vimeo na profilu Medialabu Katowice.
+się w serwisie Vimeo na profilu [Medialabu
+Katowice](http://vimeo.com/user13689791 "Medialab Katowice @ Vimeo")
 
 Zajęcia
 -------
