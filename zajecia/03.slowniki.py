@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 
-# Podziel pracowników na dwie grupy wiekowe:
-# starzy --> 30+
-# mlodzi --> <30
+# definiujemy listę naszych pracowników. Każdy pracownik 
+# opisany jest za pomocą trzech atrybutów:
+#   'imie'
+#   'nazwisko'
+#   'wiek'
+# każdy atrybut to klucz w słowniku. Nasza lista
+# pracowników to zatem lista słowników o kluczach
+# 'imie', 'nazwisko', 'wiek'
 pracownicy = [
     {
         'imie': 'Anna',
@@ -36,33 +41,40 @@ pracownicy = [
     }
 ]
 
-wiek_progowy       = 40
-drugi_wiek_progowy = 30
+# wyznaczamy dwa progi wiekowe 
+prog_I  = 60
+prog_II = 40
 
+# przygotowujemy sobie trzy kubełki,
+# za pomocą których podzielimy pracowników
+# na trzy grupy statusu zawodowego
 wyniki = {
-    'stary': [],
-    'mlody': []
+    'przed_emerytura': [],
+    'doswiadczeni'   : [],
+    'mlodziaki'      : []
 }
 
+# przyjrzymy się każdemu z pracowników
+# po kolei sprawdzając ile ma lat
 for osoba in pracownicy:
-    # przesiewamy osoby
-    if osoba['wiek'] > wiek_progowy:
-        wyniki['stary'].append(osoba['nazwisko'])
-    elif osoba['wiek'] > drugi_wiek_progowy:
-        print "Hm...."
+    # szukamy osób najstarszych
+    if osoba['wiek'] > prog_I:
+        # i dokładamy ich nazwiska do kubełka 'przed_emerytura'
+        wyniki['przed_emerytura'].append(osoba['nazwisko'])
+    # jeśli to nie osoby najstarsze to sprawdźmy czy to nie
+    # osoby z doświadczeniem 
+    elif osoba['wiek'] > prog_II:
+        # i dokładamy ich nazwiska do kubełka 'doswiadczeni'
+        wyniki['doswiadczeni'].append(osoba['nazwisko'])
+    # w przeciwnym razie to mlodzi pracownicy
     else:
-        wyniki['mlody'].append(osoba['nazwisko'])
+        # więc dokładamy ich nazwiska do kubełka 'mlodziaki'
+        wyniki['mlodziaki'].append(osoba['nazwisko'])
 
     
+# kubełek po kubełku wypiszemy pogrupowane nazwiska na ekranie
 for kluczyk in wyniki.keys():
+    # nazwa kubełka: nazwisko1, nazwisko2, nazwisko3...
     print kluczyk + ": " + ", ".join(wyniki[kluczyk])
 
-
-print "*" * 50
-
-for kluczyk in wyniki.keys():
-    print kluczyk
-    print wyniki[ kluczyk ]
-    print " | ".join(wyniki[ kluczyk ])
-    print "*" * 30
 
