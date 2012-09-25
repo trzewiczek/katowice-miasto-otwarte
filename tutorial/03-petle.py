@@ -22,3 +22,32 @@ for maskotka in zabawki:
 print "- Nieee."
 print "- Czyli na półeczce były " + ", ".join(zabawki)
 print "- Malysia chce jeszcze!"
+
+
+## WYNIK DZIAŁANIA PROGRAMU
+#
+#  - Marysiu, przyniesiesz mi zabawki z półeczki?
+#  - Taaaaaak!
+#  
+#  Marysia tupi tupi do półeczki
+#  Marysia patrzy a tam Miś
+#  Marysia bierze maskotkę i tpi tupi do tatusia
+#  - Malysia przyniosła to. Miś
+#  - Dziękuję. Są jeszcze inne zabawki?
+#  - Taaaaaak!
+#  
+#  Marysia tupi tupi do półeczki
+#  Marysia patrzy a tam Kotek
+#  Marysia bierze maskotkę i tpi tupi do tatusia
+#  - Malysia przyniosła to. Kotek
+#  - Dziękuję. Są jeszcze inne zabawki?
+#  - Taaaaaak!
+#  
+#  Marysia tupi tupi do półeczki
+#  Marysia patrzy a tam Krokodyl
+#  Marysia bierze maskotkę i tpi tupi do tatusia
+#  - Malysia przyniosła to. Krokodyl
+#  - Dziękuję. Są jeszcze inne zabawki?
+#  - Nieee.
+#  - Czyli na półeczce były Miś, Kotek, Krokodyl
+#  - Malysia chce jeszcze!

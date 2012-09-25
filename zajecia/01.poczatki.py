@@ -29,3 +29,30 @@ for maskotka in zabawki:
 print "- Ale już nie mam zabawek...."    
 print "- Jak to?!"
 
+
+## WYNIK DZIAŁANIA PROGRAMU
+#
+#  - To, co? Bawimy się dalej maskotkami?
+#  - Taaaaak!!
+#  - Proszę, oto następna zabawka
+#  - Miś, niech będzie...
+#  - Chcesz następną?
+#  - Tak!
+#  - Proszę, oto następna zabawka
+#  - Łeeeee to tylko Wiewórka
+#  - Chcesz następną?
+#  - Tak!
+#  - Proszę, oto następna zabawka
+#  - Hurra: Kotek
+#  - Chcesz następną?
+#  - Tak!
+#  - Proszę, oto następna zabawka
+#  - Łeeeee to tylko Lisek
+#  - Chcesz następną?
+#  - Tak!
+#  - Proszę, oto następna zabawka
+#  - Hurra: Krokodyl
+#  - Chcesz następną?
+#  - Tak!
+#  - Ale już nie mam zabawek....
+#  - Jak to?!

@@ -77,4 +77,8 @@ for kluczyk in wyniki.keys():
     # nazwa kubełka: nazwisko1, nazwisko2, nazwisko3...
     print kluczyk + ": " + ", ".join(wyniki[kluczyk])
 
-
+## WYNIK DZIAŁANIA PROGRAMU
+#
+#  doswiadczeni: Aureliusz, Nowak
+#  mlodziaki: Kowalska, Hałas, Święty
+#  przed_emerytura: Chotomska

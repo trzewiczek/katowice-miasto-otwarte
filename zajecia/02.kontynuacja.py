@@ -91,3 +91,27 @@ for ziomek in ziomy:
         if 'g' in dziecko:
             # jeśli tak, to wypisujemy nazwisko zioma i imię dziecka
             print ziomek[1] + ": " + dziecko
+
+
+
+## WYNIK DZIAŁANIA PROGRAMU
+#
+#  O masz dziecko: Jasio
+#  Niezły urodzaj: Kasia, Wiola
+#  Kto nie ma dzieci? Wiśniewski
+#  O masz dziecko: Zbigniew
+#  Niezły urodzaj: Jagna, Magda, Dorota
+#  __________________________________________________
+#  ||||||||||||||||||||||||||||||||||||||||||||||||||
+#  ['Jan', 'Kowalski', 23, ['Jasio'], 'Programista']
+#  ['Frania', 'Guzik', 28, ['Jagna', 'Magda', 'Dorota'], 'Architektka']
+#  ||||||||||||||||||||||||||||||||||||||||||||||||||
+#  ['Anna', 'Nowak', 50, ['Kasia', 'Wiola'], 'Programistka']
+#  ||||||||||||||||||||||||||||||||||||||||||||||||||
+#  ['Wioletta', 'Ha\xc5\x82as', 63, ['Zbigniew'], 'Wiolonczelistka']
+#  ||||||||||||||||||||||||||||||||||||||||||||||||||
+#  ['Stanis\xc5\x82aw', 'Wi\xc5\x9bniewski', 54, [], 'Malarz']
+#  __________________________________________________
+#  Hałas: Zbigniew
+#  Guzik: Jagna
+#  Guzik: Magda
