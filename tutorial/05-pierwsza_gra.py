@@ -22,7 +22,7 @@ print "- Dobrze, tatusi."
 # się na numerze "liczba elementów na liście minus jeden"
 losowanie = randint(0, len(zabawki)-1)
 # i pokazujemy wylosowaną zabawkę
-print "- O, " + zabawki[losowanie] + ". Lubisz tę zabawkę?"
+print "- O, " + zabawki[losowanie] + ". Lubisz tę zabawkę
 # czekamy na odpowiedź od gracza
 odpowiedz = raw_input()
 
