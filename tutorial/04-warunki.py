@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # zajrzyjmy do wielkiego pudła z zabawkami
 pudlo = ["czerwony kotek", "niebieski samochodzik", "niebieski balonik",
          "drewniany, zielony kwiatek", "lalka w czerwonym kubraczku"]
