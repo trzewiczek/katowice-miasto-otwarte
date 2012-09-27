@@ -1,5 +1,5 @@
-katowice-miasto-otwarte
-=======================
+Katowice. Miasto otwarte
+========================
 Kod towarzyszący warsztatom Katowice. Miasto otwarte
 
 Kurs
