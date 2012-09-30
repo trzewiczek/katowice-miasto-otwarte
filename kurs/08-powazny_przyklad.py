@@ -7,6 +7,7 @@
 #   - miesiac
 #   - wilgotność (%)
 #   - temperatura
+# Dane pochodzą ze strony: http://stacje.katowice.pios.gov.pl/monitoring/
 dane = [
     ["Dąbrowa Górnicza", 2009,  1, 92, -5.6],
     ["Dąbrowa Górnicza", 2009,  2, 94, -3.7],
