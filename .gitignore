@@ -29,3 +29,9 @@ pip-log.txt
 # vim files
 *.swp
 *.swo
+
+# results
+*.eps
+*.zip
+*.pdf
+*.png
